@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axel669/simple-csv.git"
+    "url": "git+https://github.com/axel669/scsv.git"
   },
   "keywords": [
     "csv"
@@ -16,7 +16,7 @@
   "author": "Axel669",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axel669/simple-csv/issues"
+    "url": "https://github.com/axel669/scsv/issues"
   },
-  "homepage": "https://github.com/axel669/simple-csv#readme"
+  "homepage": "https://github.com/axel669/scsv#readme"
 }
