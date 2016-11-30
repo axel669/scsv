@@ -58,3 +58,5 @@ const parseCSV = (filename, rowParser, cb) => {
         cb(lines);
     });
 }
+
+module.exports = parseCSV;
