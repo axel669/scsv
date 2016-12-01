@@ -13,7 +13,7 @@ const parseCSV = (filename, rowParser, cb) => {
     const parseData = data => {
         for (const ch of data) {
             if (inString === true) {
-                if (ch === '"' && prevch !== '"') {
+                if (ch === '"' && prevch !== '\\') {
                     inString = false;
                 } else {
                     currentElem += ch;
